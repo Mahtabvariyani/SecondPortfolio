@@ -39,9 +39,9 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Mah",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "mahtabvariyani@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -95,6 +95,7 @@ const Contact = () => {
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Name</span>
             <input
+            required
               type="text"
               name="name"
               value={form.name}
@@ -106,6 +107,7 @@ const Contact = () => {
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your email</span>
             <input
+            required
               type="email"
               name="email"
               value={form.email}
@@ -117,6 +119,7 @@ const Contact = () => {
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Message</span>
             <textarea
+            required
               rows={7}
               name="message"
               value={form.message}
@@ -128,13 +131,13 @@ const Contact = () => {
           <div className="flex flex-rows">
             <button
               type="submit"
-              className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary mr-20"
+              className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary mr-10"
             >
               {loading ? "Sending..." : "Send"}
             </button>
             <button
               type="button"
-              className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary ml-20"
+              className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary ml-10"
             >
               <a href={MVR} download="cv.pdf">
                 {" "}
