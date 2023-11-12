@@ -1,5 +1,4 @@
 import React from "react";
-import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -15,10 +14,11 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  linkLive
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <Tilt
+      <div
         options={{
           max: 45,
           scale: 1,
@@ -44,6 +44,12 @@ const ProjectCard = ({
                 className='w-1/2 h-1/2 object-contain'
               />
             </div>
+            <div
+              onClick={() => window.open(linkLive, "_blank")}
+              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+            >
+             Live
+            </div>
           </div>
         </div>
 
@@ -62,7 +68,7 @@ const ProjectCard = ({
             </p>
           ))}
         </div>
-      </Tilt>
+      </div>
     </motion.div>
   );
 };

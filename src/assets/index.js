@@ -34,10 +34,14 @@ import tripguide from "./tripguide.png";
 import natural from './natural.png'
 import wecode from './wecode.png'
 import api from './api.png' 
+import Aapi from './Aapi.png'
+import ski from './ski.png'
 export {
   api,
   natural,
+  ski,
   wecode,
+  Aapi,
   qrcode,
   logo,
   backend,

@@ -3,6 +3,7 @@ import {
   backend,
   creator,
   web,
+  ski,
   javascript,
   typescript,
   html,
@@ -15,7 +16,7 @@ import {
   git,
   figma,
   docker,
-  
+  Aapi,
   mail,
   github,
   linkedin,
@@ -198,6 +199,8 @@ const testimonials = [
 const projects = [
   {
     name: "Natural life",
+    linkLive: "https://github.com/Mahtabvariyani/NaturalLife",
+
     description:
       "NaturalLife Store is a web application that allows a family (Farm FamilyHack) in a village to sell their products online. Each season brings different offers and products for users to browse and order. The website also provides weather information using an API and allows both registered and non-registered users to contact the family.",
     tags: [
@@ -219,8 +222,9 @@ const projects = [
   },
   {
     name: "API",
+    linkLive:"https://labtop-blog.vercel.app/",
     description:
-    "An interconnected web application with diverse pages, each linked to various APIs for comprehensive testing and functionality. Explore different API integrations across each page, showcasing the dynamic interaction with varied external services.",
+      "An interconnected web application with diverse pages, each linked to various APIs for comprehensive testing and functionality. Explore different API integrations across each page, showcasing the dynamic interaction with varied external services.",
     tags: [
       {
         name: "Nextjs",
@@ -240,6 +244,7 @@ const projects = [
   },
   {
     name: "We Code",
+    linkLive:"https://we-dev.vercel.app/sign-up?redirect_url=https%3A%2F%2Fwe-dev.vercel.app%2F",
     description:
       "ConnectDev is a collaborative platform designed for developers to connect, communicate, collaborate, and code together. It offers a space for developers to ask questions, share knowledge, and work on coding projects in real-time. With built-in authentication powered by Clerk, users can create or join communities of up to 5 members to work together seamlessly.",
     tags: [
@@ -258,6 +263,50 @@ const projects = [
     ],
     image: wecode,
     source_code_link: "https://github.com/Mahtabvariyani/WeCode",
+
+  },
+  {
+    name: "Rent APP",
+    linkLive:"https://carrenting-app.vercel.app/",
+    description:
+      "This is a small Renting app that is connected to the Api so the user can search and find a car to rent ",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "API",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Aapi,
+    source_code_link: "https://github.com/Mahtabvariyani/WeCode",
+  }, {
+    name: "Skiwear Shop",
+    linkLive:"https://skiwearshop.vercel.app/",
+    description:
+      "A Small Commerce App without Authentication for justy trying and testing the App having a Stripe testing payment and adding the Products and APi  with Sanity",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Sanity",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ski,
+    source_code_link: "https://github.com/Mahtabvariyani/skiwearshop",
   },
 ];
 
