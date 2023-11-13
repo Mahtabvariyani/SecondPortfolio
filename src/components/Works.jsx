@@ -15,7 +15,7 @@ const ProjectCard = ({
   linkLive
 }) => {
   return (
-    <div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <div variants={fadeIn("up", "spring", index * 0.5, 0.75)}  >
       <div
         options={{
           max: 45,
