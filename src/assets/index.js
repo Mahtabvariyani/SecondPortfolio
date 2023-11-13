@@ -36,7 +36,11 @@ import wecode from './wecode.png'
 import api from './api.png' 
 import Aapi from './Aapi.png'
 import ski from './ski.png'
+import fendous from './fendous.png'
+import Quiz from './Quiz.png'
 export {
+  Quiz,
+  fendous,
   api,
   natural,
   ski,

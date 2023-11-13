@@ -28,6 +28,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  fendous,
+  Quiz,
 } from "../assets";
 
 export const navLinks = [
@@ -222,7 +224,7 @@ const projects = [
   },
   {
     name: "API",
-    linkLive:"https://labtop-blog.vercel.app/",
+    linkLive: "https://labtop-blog.vercel.app/",
     description:
       "An interconnected web application with diverse pages, each linked to various APIs for comprehensive testing and functionality. Explore different API integrations across each page, showcasing the dynamic interaction with varied external services.",
     tags: [
@@ -244,7 +246,8 @@ const projects = [
   },
   {
     name: "We Code",
-    linkLive:"https://we-dev.vercel.app/sign-up?redirect_url=https%3A%2F%2Fwe-dev.vercel.app%2F",
+    linkLive:
+      "https://we-dev.vercel.app/sign-up?redirect_url=https%3A%2F%2Fwe-dev.vercel.app%2F",
     description:
       "ConnectDev is a collaborative platform designed for developers to connect, communicate, collaborate, and code together. It offers a space for developers to ask questions, share knowledge, and work on coding projects in real-time. With built-in authentication powered by Clerk, users can create or join communities of up to 5 members to work together seamlessly.",
     tags: [
@@ -263,11 +266,10 @@ const projects = [
     ],
     image: wecode,
     source_code_link: "https://github.com/Mahtabvariyani/WeCode",
-
   },
   {
     name: "Rent APP",
-    linkLive:"https://carrenting-app.vercel.app/",
+    linkLive: "https://carrenting-app.vercel.app/",
     description:
       "This is a small Renting app that is connected to the Api so the user can search and find a car to rent ",
     tags: [
@@ -286,9 +288,10 @@ const projects = [
     ],
     image: Aapi,
     source_code_link: "https://github.com/Mahtabvariyani/WeCode",
-  }, {
+  },
+  {
     name: "Skiwear Shop",
-    linkLive:"https://skiwearshop.vercel.app/",
+    linkLive: "https://skiwearshop.vercel.app/",
     description:
       "A Small Commerce App without Authentication for justy trying and testing the App having a Stripe testing payment and adding the Products and APi  with Sanity",
     tags: [
@@ -307,6 +310,49 @@ const projects = [
     ],
     image: ski,
     source_code_link: "https://github.com/Mahtabvariyani/skiwearshop",
+  },
+  {
+    name: "Fendous Website",
+    linkLive: "https://chat-bot-landing-page.vercel.app/",
+    description:
+      "A Website for Fendous Company in Denmark which  i  created it  according to their needs and requests",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Caspio",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: fendous,
+    source_code_link: "https://github.com/Mahtabvariyani/Chat-bot-Landing-Page",
+  },{
+    name: "Quiz App",
+    linkLive: "https://coding-quiz-nine.vercel.app/",
+    description:
+      "few Days back i was trying to Find an app or a website to do few Quiz about JavaScript or TypeScript or ... i didnt find so i made it myself ",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Quiz,
+    source_code_link: "https://github.com/Mahtabvariyani/CodingQuiz",
   },
 ];
 
