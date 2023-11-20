@@ -68,7 +68,7 @@ const Contact = () => {
 
   return (
     <div
-    id="contact"
+      id="contact"
       className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
     >
       <motion.div
@@ -78,14 +78,6 @@ const Contact = () => {
         <p className={styles.sectionSubText}>Get in touch </p>
         <div className="flex flex-cols">
           <h3 className={styles.sectionHeadText}>Contact. </h3>
-
-          <img
-            src={qrcode}
-            alt="qrcode"
-            width={90}
-            height={90}
-            className="ml-10"
-          />
         </div>
 
         <form
@@ -96,7 +88,7 @@ const Contact = () => {
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Name</span>
             <input
-            required
+              required
               type="text"
               name="name"
               value={form.name}
@@ -108,7 +100,7 @@ const Contact = () => {
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your email</span>
             <input
-            required
+              required
               type="email"
               name="email"
               value={form.email}
@@ -120,7 +112,7 @@ const Contact = () => {
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Message</span>
             <textarea
-            required
+              required
               rows={7}
               name="message"
               value={form.message}
@@ -135,15 +127,6 @@ const Contact = () => {
               className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary mr-10"
             >
               {loading ? "Sending..." : "Send"}
-            </button>
-            <button
-              type="button"
-              className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary ml-10"
-            >
-              <a href={MVR} download="cv.pdf">
-                {" "}
-                Download CV
-              </a>
             </button>
           </div>
         </form>
