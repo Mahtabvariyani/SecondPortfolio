@@ -24,7 +24,7 @@ export default function Example() {
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-300">
               a FullStack Developer with 2+ years of experience in JavaScript,
-              TypeScript, React, and Node.js
+              TypeScript, React, and Node.js , ...
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
               <a
