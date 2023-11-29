@@ -332,7 +332,7 @@ const projects = [
     name: "Quiz App",
     linkLive: "https://coding-quiz-nine.vercel.app/",
     description:
-      "few Days back i was trying to Find an app or a website to do few Quiz about JavaScript or TypeScript or ... i didnt find so i made it myself ",
+      "few Days back i was trying to Find an app or a website to do few Quiz about JavaScript or TypeScript or ... i didnt find so i made it myself (Its still not Completed im working on it)",
     tags: [
       {
         name: "nextjs",
